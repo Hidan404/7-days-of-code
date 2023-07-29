@@ -1,8 +1,19 @@
-*  {
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
+body {
+    width: 1440px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
 .header {
     display: flex;
     align-items: center;
@@ -11,8 +22,9 @@
     background-color: #ffffff;
     width: 1440px;
     height: 80px;
-   
+
 }
+
 .menu-left {
     display: flex;
     align-items: flex-start;
@@ -21,43 +33,50 @@
     margin-top: 10px;
 
 }
+
 .text-logo {
     margin-top: 5px;
 }
+
 .imglogo {
     display: flex;
     justify-content: center;
     padding-right: 15px;
-   
+
 }
+
 .menu-center {
     display: flex;
     align-items: center;
     justify-content: center;
-    
+
     font-family: Inter;
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
-    line-height: 24px; 
+    line-height: 24px;
 }
+
 a {
     padding: 10px;
     text-decoration: none;
     color: #667085;
 }
+
 .menu-right {
     display: flex;
     align-items: flex-end;
     justify-content: center;
-    
+
 }
+
 .menu-right-text {
     margin-bottom: 5px;
     margin-right: 5px;
 }
+
 .button-nav {
-    
+
     margin-bottom: 8px;
     text-align: center;
     padding: 10px 18px;
@@ -66,8 +85,49 @@ a {
     border: 1px solid #8E2424;
     background: #8E2424;
     box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
-   
+
 }
+
 .button-text {
     color: white;
+}
+
+.header-second {
+    background-color: #ffffff;
+    height: 407px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    gap: 24px;
+}
+
+.text-header {
+    margin-bottom: 35px;
+    color: #8E2424;
+    font-weight: 600;
+}
+
+.title-principal {
+    font-family: Inter;
+    font-size: 48px;
+    color: #101828;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 60px;
+    letter-spacing: -0.96px;
+    margin-bottom: 25px;
+}
+
+#text {
+    text-align: justify;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    color: #667085;
+    width: 49%;
+    margin: auto;
 }
