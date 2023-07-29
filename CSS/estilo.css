@@ -6,6 +6,7 @@
 
 body {
     width: 1440px;
+    height: auto;
     margin: auto;
     display: flex;
     justify-content: center;
@@ -136,7 +137,7 @@ a {
 
 .container {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
 
 }
@@ -149,7 +150,7 @@ a {
     width: 100%;
     justify-content: center;
     height: 288px;
-
+    margin-bottom: 80px;
 }
 
 .box {
@@ -184,4 +185,43 @@ a {
     font-style: normal;
     font-weight: 400;
     line-height: 24px;
+}
+
+.pict {
+    width: 1000px;
+    height: 300px;
+    margin: auto;
+}
+
+.text-red2 {
+    color: #8E2424;
+    text-align: center;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    padding: 20px;
+}
+
+.text-p3 {
+    text-align: center;
+    font-family: Inter;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 44px;
+    color: #101828;
+    letter-spacing: -0.72px;
+    padding: 20px;
+}
+
+.text-p4 {
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+    padding: 20px;
 }
