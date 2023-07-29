@@ -12,6 +12,8 @@ body {
     align-items: center;
     flex-wrap: wrap;
 
+
+
 }
 
 .header {
@@ -152,4 +154,34 @@ a {
 
 .box {
     width: 18%;
+    text-align: justify;
+    padding: 5px;
+}
+
+.text-red {
+    font-family: Inter;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 72px;
+    letter-spacing: -1.2px;
+    color: #8E2424;
+}
+
+.text-p {
+    font-family: Inter;
+    color: #101828;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+}
+
+.text-p2 {
+    font-family: Inter;
+    color: #667085;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
 }
