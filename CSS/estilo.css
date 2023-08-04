@@ -292,3 +292,69 @@ a {
     top: 0;
     left: -50px;
 }
+#Containermain {
+    position: relative;
+    top: 200px;
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    padding: 25px;
+    text-align: center;
+}
+#text-titlemain {
+    color: #8E2424;
+    text-align: center;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px;
+    color: #8E2424;
+    padding: 15px;
+}
+.text-subtitle {
+    position: relative;
+    left: 220px;
+    font-family: Inter;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 44px; /* 122.222% */
+    letter-spacing: -0.72px;
+    color: #101828;
+    text-align: center;
+    width: 70%;
+}
+figure {
+    display: block;
+    margin: auto;
+    text-align: center;
+    margin: 35px;
+}
+.legend-img {
+    padding: 15px;
+}
+.text-nome {
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: center;
+    color: #101828;  
+    padding: 5px; 
+}
+.text-sublegend {
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    color:#b7c4de;
+}
+
+
+
+
